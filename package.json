@@ -4,6 +4,7 @@
   "main": "src/rbste.ts",
   "license": "MIT",
   "author": "Fedor Alekseev",
+  "repository": "https://github.com/atlz253/russian-bank-statement-to-excel",
   "scripts": {
     "build": "tsup"
   },
