@@ -1,0 +1,35 @@
+{
+  "name": "russian-bank-statement-to-excel",
+  "version": "0.0.0",
+  "main": "src/rbste.ts",
+  "license": "MIT",
+  "author": "Fedor Alekseev",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "exceljs": "^4.4.0",
+    "pdf2json": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  },
+  "bin": {
+    "rbste": "dist/rbste.cjs"
+  },
+  "keywords": [
+    "alpha bank",
+    "nodejs",
+    "xlsx"
+  ],
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
