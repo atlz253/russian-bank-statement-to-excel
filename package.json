@@ -20,7 +20,7 @@
     "typescript": "^5.9.2"
   },
   "bin": {
-    "rbste": "dist/rbste.cjs"
+    "rbste": "dist/rbste.js"
   },
   "keywords": [
     "alpha bank",
